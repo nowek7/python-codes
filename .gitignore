@@ -1,3 +1,14 @@
+.vscode
+packages
+env_packages
+
+*.pdf
+*.xlsx
+*.html
+*.css
+*.docx
+*.jpg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
