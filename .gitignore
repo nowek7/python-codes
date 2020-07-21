@@ -1,13 +1,21 @@
+books
+todo
+
 .vscode
-packages
-env_packages
+env-packages
 
 *.pdf
-*.xlsx
+
 *.html
 *.css
+
 *.docx
+*.xlsx
+
 *.jpg
+
+*.attributes
+*.Identifier
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
