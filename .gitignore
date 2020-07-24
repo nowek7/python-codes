@@ -1,17 +1,20 @@
 books
 todo
 
+# Editors, IDE
 .vscode
-env-packages
+.idea
+.vs
 
 *.pdf
-
 *.html
 *.css
 
+# MS Office formats
 *.docx
 *.xlsx
 
+# Images
 *.jpg
 
 *.attributes
@@ -121,6 +124,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+env_packages
 .env
 .venv
 env/
