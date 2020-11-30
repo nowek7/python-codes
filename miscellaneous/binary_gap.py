@@ -1,3 +1,5 @@
+#!/bin/python3
+
 def solution(number):
     maxGaps = 0
     gaps = -1
@@ -14,7 +16,6 @@ def solution(number):
             gaps += 1
 
     return maxGaps
-
 
 print(solution(1041))
 print(solution(1))
