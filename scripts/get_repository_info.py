@@ -11,5 +11,5 @@ if __name__ == '__main__':
         'gitTag': subprocess.check_output(['git', 'describe', '--tags', '--abbrev=0']).decode('utf8')[0:-1]
     }
 
-    with open('repoInfo.json', 'w', encoding='utf-8') as file:
+    with open('../generated/repoInfo.json', 'w', encoding='utf-8') as file:
         json.dump(repository_info, file, ensure_ascii=False, indent=2)

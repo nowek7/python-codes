@@ -22,7 +22,7 @@ COMPILATION_OPTS = frozenset((
     '--file-line-error',
     '--synctex=-1',
     '--quiet'
-    ))
+))
 
 
 def skipped_dir(dir: list) -> bool:
