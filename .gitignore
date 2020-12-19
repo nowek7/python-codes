@@ -2,6 +2,7 @@ books
 todo
 generated
 test.py
+data
 
 # Editors, IDE
 .vscode
